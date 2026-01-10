@@ -86431,7 +86431,7 @@ case 1:s=m.f
 s=A.ek(A.avy(A.Y(B.d.aB(25.5),B.j.n()>>>16&255,B.j.n()>>>8&255,B.j.n()&255),6,s,B.Bg),180,180)
 r=A.Y(51,B.K.n()>>>16&255,B.K.n()>>>8&255,B.K.n()&255)
 q=A.on(A.Y(B.d.aB(127.5),B.K.n()>>>16&255,B.K.n()>>>8&255,B.K.n()&255),2)
-p=B.d.ab(m.f*45,1)
+p=B.d.ab(m.f*20,1)
 o=A.A(a).ok.r
 o=o==null?l:o.lf(B.K,B.ai)
 n=t.p
@@ -86445,7 +86445,7 @@ q=A.bb(15e5,0)
 return A.awV(r,A.Y(51,B.D.n()>>>16&255,B.D.n()>>>8&255,B.D.n()&255),s,q)},
 a4Q(a){var s,r=this,q=null,p=r.e
 if(p===B.fs){p=t.p
-return A.cn(q,q,20,A.b3(A.b([A.bs(A.b([r.D9(a,B.cM,"Motoru r\xf6lantide \xe7al\u0131\u015ft\u0131r\u0131n")],p),B.o,B.l),B.aJ,A.bs(A.b([r.D9(a,B.f2,"Telefonu motor b\xf6lmesine yakla\u015ft\u0131r\u0131n")],p),B.o,B.l),B.aJ,A.bs(A.b([r.D9(a,B.GD,"45 saniye kay\u0131t yap\u0131lacak")],p),B.o,B.l)],p),B.o,B.l,B.w),q,B.cL)}p=p===B.z8?"Kay\u0131t yap\u0131l\u0131yor... \u0130ptal etmek i\xe7in butona dokunun":"Sonu\xe7lar haz\u0131rlan\u0131yor..."
+return A.cn(q,q,20,A.b3(A.b([A.bs(A.b([r.D9(a,B.cM,"Motoru r\xf6lantide \xe7al\u0131\u015ft\u0131r\u0131n")],p),B.o,B.l),B.aJ,A.bs(A.b([r.D9(a,B.f2,"Telefonu motor b\xf6lmesine yakla\u015ft\u0131r\u0131n")],p),B.o,B.l),B.aJ,A.bs(A.b([r.D9(a,B.GD,"20 saniye kay\u0131t yap\u0131lacak")],p),B.o,B.l)],p),B.o,B.l,B.w),q,B.cL)}p=p===B.z8?"Kay\u0131t yap\u0131l\u0131yor... \u0130ptal etmek i\xe7in butona dokunun":"Sonu\xe7lar haz\u0131rlan\u0131yor..."
 s=A.A(a).ok.z
 return A.aj(p,q,q,q,s==null?q:s.bg(B.ae),q,q)},
 D9(a,b,c){var s=null
@@ -86462,7 +86462,7 @@ s.ak(new A.apD(s))},
 $S:101}
 A.apD.prototype={
 $0(){var s=this.a
-if((s.f+=0.0022222222222222222)>=1)s.ty()},
+if((s.f+=0.005)>=1)s.ty()},
 $S:0}
 A.apG.prototype={
 $0(){var s=this.a
